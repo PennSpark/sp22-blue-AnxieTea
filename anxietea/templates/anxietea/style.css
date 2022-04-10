@@ -22,11 +22,11 @@ body {
 
 .navigation-bar {
   border: 1px solid black;
-  background-color: lightgreen;
+  background-color: lightyellow;
   height: 40px;
   display: flex;
   justify-content: left;
   align-items: center;
-  font-size: small;
+  font-size: 10px;
   padding: 10px;
 }
