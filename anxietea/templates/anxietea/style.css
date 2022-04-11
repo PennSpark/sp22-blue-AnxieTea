@@ -28,6 +28,7 @@ button {
   width: 265px;
   height: 81.5px;
   margin: 5%;
+  border: none;
 }
 
 .buttons {
