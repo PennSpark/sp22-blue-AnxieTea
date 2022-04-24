@@ -10,6 +10,10 @@ def onboarding(request):
 def splash_view(request):
      return render(request, 'anxietea/splash.html' ) 
 
+def emotions_view(request):
+    return render(request, 'anxietea/emotions.html' )
+
+
 def login_view(request):
     username, password = request.POST['username'], request.POST['password']
     user = authenticate(username=username, password=password)
