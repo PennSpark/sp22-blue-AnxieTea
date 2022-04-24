@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/nakyung/Desktop/sparkpj/sp22-blue-AnxieTea/venv"
+VIRTUAL_ENV="/Users/Sanya/Documents/Spark Blue Dev/pomt-site/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
