@@ -1,10 +1,8 @@
 body {
   font-family: IBM Plex Mono;
   background-color: lightgray;
-
-  position: relative;
-  width: 1440px;
-  height: 1024px;
+  width: 100vw;
+  height: 100vh;
 
   background: #f7ccdb;
   box-sizing: border-box;
@@ -16,41 +14,50 @@ body {
 }
 
 .signup-form {
-  background: #ffffff;
+  width: 40vw;
+  height: 40vh;
+  margin: 0 auto;
+  padding-top: 20px;
+}
 
-  width: 522px;
-  height: 446px;
-  left: 477px;
-  top: 261px;
+.form-header {
+  padding: 10px;
+  border-bottom: 3px solid #bfafe0;
+}
+
+.form-input {
+  display: flex;
+}
+
+.form-label {
+  width: 20%;
 }
 
 input {
   background: #ffffff;
   border: 3px solid #bfafe0;
-  border-radius: 10px;
+  border-radius: 5px;
+  width: 70%;
 }
 
 .dot {
   position: relative;
-  height: 25px;
-  width: 25px;
+  height: 15px;
+  width: 15px;
   background: white;
   border-radius: 50%;
+  border: 3px solid #bfafe0;
   display: inline-block;
-
-  left: 5.41%;
-  right: 90.54%;
-  top: 4.29%;
-  bottom: 91.43%;
 }
 
 .purple-rect {
-  position: absolute;
-  background: #bfafe0;
-  width: 522px;
-  height: 446px;
-  left: 477px;
-  top: 261px;
+  width: 50vw;
+  height: 50vh;
+  margin-left: 25vw;
+  margin-top: 25vh;
+  background-color: white;
+  border-radius: 15px;
+  border: 3px solid #bfafe0;
 }
 
 h1 {
@@ -99,7 +106,6 @@ h1 {
   top: 30.77%;
   bottom: 32.97%;
   left: 68.54%;
-
   display: flex;
   align-items: center;
   text-align: center;
@@ -115,26 +121,14 @@ h1 {
   width: 150px;
 }
 
-.background {
-  position: relative;
-  width: 1440px;
-  height: 1024px;
-
-  background: #f7ccdb;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-  background-size: 80px 80px;
-  background-image: linear-gradient(to right, grey 1px, transparent 1px),
-    linear-gradient(to bottom, grey 1px, transparent 1px);
-}
-
 .navigation-bar {
   position: absolute;
-  width: 1460px;
-  height: 91px;
-  left: -20px;
-  top: 32px;
+  width: 100vw;
+  height: 100px;
+  top: 30px;
   background: #eaffc9;
 }
+
+/* . -> class
+# -> id 
+no selector ->  */
