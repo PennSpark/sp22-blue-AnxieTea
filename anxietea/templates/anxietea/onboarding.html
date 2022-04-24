@@ -1,7 +1,8 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
     <meta charset="utf-8" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
@@ -17,7 +18,7 @@
         </div>
       </div>
       <h1>Welcome!</h1>
-      <img src = "images/image.png">
+      <img src = "{% static 'images/image.png' %}">
       <div class = "buttons"> 
         <button>Sign Up</button>
         <button>Log In</button>
