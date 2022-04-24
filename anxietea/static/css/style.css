@@ -33,9 +33,10 @@ button {
 
 .buttons {
   align-items: center;
-
   justify-content: center;
   position: absolute;
+  width: 300px;
+
   left: 38.25%;
   top: 60%;
 }
