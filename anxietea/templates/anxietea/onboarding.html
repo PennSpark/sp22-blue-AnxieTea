@@ -1,5 +1,5 @@
-<!DOCTYPE html>
 {% load static %}
+<!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
@@ -20,8 +20,8 @@
       <h1>Welcome!</h1>
       <img src = "{% static 'images/image.png' %}">
       <div class = "buttons"> 
-        <button>Sign Up</button>
-        <button>Log In</button>
+        <a href="/signup"><button>Sign Up or Log In</button></a>
+        <a href="/logout"><button>Logout</button></a>
       </div>
   </body>
 </html>
