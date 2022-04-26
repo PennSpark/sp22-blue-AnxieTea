@@ -10,7 +10,7 @@
     <!-- <link rel="stylesheet" type="text/css" href="login.css" /> -->
     <meta charset="utf-8" />
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+      @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Pacifico&display=swap');
     </style>
   </head>
   <body>
@@ -25,9 +25,11 @@
     <div>
       <div>
         <div class="purple-rect">
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
+          <div class="form-header">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
           <form method="POST" action="/signup/" class="signup-form">
             <!-- {% csrf_token %} -->
             <p>
@@ -41,7 +43,15 @@
               Password:
               <input name="password" type="password" placeholder="Password" />
             </p>
-            <button type="submit">Sign Up</button>
+            <p>
+              Age:
+              <input name="age" type="age" placeholder="Age" />
+            </p>
+            <p>
+              Gender:
+              <input name="Gender" type="Gender" placeholder="Gender" />
+            </p>
+            <button type="submit" class = "submit-button">Ready!</button>
           </form>
         </div>
       </div>

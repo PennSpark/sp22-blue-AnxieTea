@@ -1,18 +1,21 @@
-body {
-  font-family: IBM Plex Mono;
-  background-color: lightgray;
+h1 {
+  position: absolute;
+  width: 900px;
+  height: 240px;
+  left: 284px;
+  top: 173px;
 
-  position: relative;
-  width: 1440px;
-  height: 1024px;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 104px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 
-  background: #f7ccdb;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-  background-size: 80px 80px;
-  background-image: linear-gradient(to right, #ce94b2 1px, transparent 1px),
-    linear-gradient(to bottom, #ce94b2 1px, transparent 1px);
+  color: #000000;
 }
 
 button {
@@ -96,7 +99,6 @@ img {
   top: 30.77%;
   bottom: 32.97%;
   left: 68.54%;
-
   display: flex;
   align-items: center;
   text-align: center;
@@ -112,26 +114,10 @@ img {
   width: 150px;
 }
 
-.background {
-  position: relative;
-  width: 1440px;
-  height: 1024px;
-
-  background: #f7ccdb;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
-  background-size: 80px 80px;
-  background-image: linear-gradient(to right, grey 1px, transparent 1px),
-    linear-gradient(to bottom, grey 1px, transparent 1px);
-}
-
 .navigation-bar {
   position: absolute;
-  width: 1460px;
-  height: 91px;
-  left: -20px;
-  top: 32px;
+  width: 100vw;
+  height: 100px;
+  top: 30px;
   background: #eaffc9;
 }
