@@ -7,7 +7,6 @@
       type="text/css"
       href="{% static 'css/login.css' %}"
     />
-    <!-- <link rel="stylesheet" type="text/css" href="login.css" /> -->
     <meta charset="utf-8" />
     <style>
       @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Pacifico&display=swap');
@@ -30,6 +29,7 @@
         <span class="dot"></span>
         <span class="dot"></span>
       </div>
+      <img src="{% static 'images/cup.png' %}" />
             <p>
               Name: {{ user.username }}
             </p>
@@ -42,9 +42,8 @@
             <p>
                 Gender : {{ user.gender }}
             </p>
-            <div>
-                <a href="/logout"><button>Logout</button></a>
-              </div>
+                <a href="/logout"><button type="submit" class = "submit-button">Log Out</button>
+            
         </div>
     </div>
   </body>
