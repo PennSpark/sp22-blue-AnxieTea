@@ -96,6 +96,7 @@ img {
   top: 30.77%;
   bottom: 32.97%;
   left: 68.54%;
+
   display: flex;
   align-items: center;
   text-align: center;
@@ -111,14 +112,6 @@ img {
   width: 150px;
 }
 
-.navigation-bar {
-  position: absolute;
-  width: 100vw;
-  height: 100px;
-  top: 30px;
-  background: #eaffc9;
-}
-
 .background {
   position: relative;
   width: 1440px;
@@ -132,4 +125,13 @@ img {
   background-size: 80px 80px;
   background-image: linear-gradient(to right, grey 1px, transparent 1px),
     linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+
+.navigation-bar {
+  position: absolute;
+  width: 1460px;
+  height: 91px;
+  left: -20px;
+  top: 32px;
+  background: #eaffc9;
 }

@@ -30,8 +30,8 @@
         <span class="dot"></span>
         <span class="dot"></span>
       </div>
-          <form method="POST" action="/signup/" class="signup-form">
-            <!-- {% csrf_token %} -->
+          <form method="POST" action="/signup_submit/" class="signup-form">
+            {% csrf_token %}
             <p>
               Name: <input name="username" type="text" placeholder="Username" />
             </p>

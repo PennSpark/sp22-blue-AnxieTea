@@ -11,24 +11,29 @@ def emotions_view(request):
     return render(request, 'anxietea/emotions.html' )
 
 def login_view(request):
-    # username, password = request.POST['username'], request.POST['password']
-    # user = authenticate(username=username, password=password)
-    # if user is not None:
-    #     login(request, user)
-    #     return redirect('/')
-    # else:
-    #     return redirect('/splash?error=LoginError')
     return render(request, 'anxietea/login.html' )
 
+def login_submit(request):
+    username, password = request.POST['username'], request.POST['password']
+    user = authenticate(username=username, password=password)
+    if user is not None:
+        login(request, user)
+        return redirect('/')
+    else:
+        return redirect('/splash?error=LoginError')
+
 def signup_view(request):
-    # user = User.objects.create_user(
-    #     username=request.POST['username'],
-    #     password=request.POST['password'],
-    #     email=request.POST['email'],
-    # )
-    # login(request, user)
-    # return redirect('/')
     return render(request, 'anxietea/signup.html')
+
+def signup_submit(request):
+    user = User.objects.create_user(
+        username=request.POST['username'],
+        password=request.POST['password'],
+        email=request.POST['email'],
+    )
+    login(request, user)
+    return redirect('/')
+
 
 def logout_view(request):
     logout(request)
