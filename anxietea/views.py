@@ -37,7 +37,7 @@ def signup_submit(request):
 
 def logout_view(request):
     logout(request)
-    return redirect('/splash')
+    return redirect('/')
 
 def profile_view(request):
     user = request.user
