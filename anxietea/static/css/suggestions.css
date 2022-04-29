@@ -1,0 +1,166 @@
+body {
+  font-family: IBM Plex Mono;
+  background-color: lightgray;
+  width: 100vw;
+  height: 100vh;
+
+  background: #f7ccdb;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  background-size: 80px 80px;
+  background-image: linear-gradient(to right, #ce94b2 1px, transparent 1px),
+    linear-gradient(to bottom, #ce94b2 1px, transparent 1px);
+}
+
+.signup-form {
+  width: 40vw;
+  height: 40vh;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.form-header {
+  padding: 10px;
+  border-bottom: 5px solid #bfafe0;
+}
+
+.form-input {
+  display: flex;
+}
+
+.form-label {
+  width: 20%;
+}
+
+input {
+  background: #ffffff;
+  border: 3px solid #bfafe0;
+  border-radius: 5px;
+  width: 70%;
+}
+
+.dot {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  background: white;
+  border-radius: 50%;
+  border: 5px solid #bfafe0;
+  display: inline-block;
+}
+
+.purple-rect {
+  width: 50vw;
+  height: 50vh;
+  margin-left: 25vw;
+  margin-top: 25vh;
+  background-color: white;
+  border-radius: 15px;
+  border: 5px solid #bfafe0;
+}
+
+h1 {
+  position: absolute;
+  width: 900px;
+  height: 240px;
+  left: 284px;
+  top: 173px;
+
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 104px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: #000000;
+}
+
+.anxie-tea {
+  /* ANXIE-TEA */
+
+  position: absolute;
+  left: 2.08%;
+  right: 88.61%;
+  top: 30.77%;
+  bottom: 32.97%;
+
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+.menu {
+  position: absolute;
+  top: 30.77%;
+  bottom: 32.97%;
+  left: 68.54%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.menu-items {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  width: 150px;
+}
+
+.navigation-bar {
+  position: absolute;
+  width: 1460px;
+  height: 91px;
+  left: -20px;
+  top: 32px;
+  background: #eaffc9;
+}
+
+.submit-button {
+  width: 30%;
+  height: 15%;
+
+  background-color: #ffffff;
+
+  font-family: "Pacifico";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: #605f5f;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+img {
+  width: 400px;
+  position: absolute;
+  width: 170px;
+  height: 150px;
+  left: 860px;
+  top: 358px;
+}
+
+
+/* . -> class
+# -> id 
+no selector ->  */

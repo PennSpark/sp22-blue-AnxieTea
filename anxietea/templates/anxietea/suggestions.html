@@ -1,0 +1,65 @@
+<!-- {% load static %} -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/suggestions.css' %}"
+    />
+    <meta charset="utf-8" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Pacifico&display=swap');
+    </style>
+  </head>
+  <body>
+      <div class="navigation-bar">
+        <a href="/"><p class="anxie-tea">ANXIE-TEA</p></a>
+        <div class="menu">
+            <a href="/profile"><p class="menu-items">PROFILE</p></a>
+          <a href="/emotions"><p class="menu-items">MOOD DIARY</p></a>
+          <a href="/suggestions"><p class="menu-items">SUGGESTIONS</p></a>
+        </div>
+      </div>
+    <div>
+      <div>
+        <div class="purple-rect">
+          <div class="form-header">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <div>
+        <p>
+            Mood: Breath it out, Release physical tension. Try writing down your thoughts.         
+          </p>
+          <p>
+            Sleep: Stick to sleep schedule. Try closing your eyes and empty your thoughts. 
+            <!-- <div class="music-img">
+              <img src="{% static 'images/music.png' %}" />
+            </div>  -->
+          </p>
+          <p>
+            Tea: 
+              <img src="{% static 'images/teabag.png' %}" />
+            <div>
+              <p>
+                Camomile Tea is good for relaxation.
+              </p>
+              <p>
+                Pepermint Tea is good for refreshment.
+              </p>
+              <p>
+                Chai Tea is good for digestion and reducing blood sugar levels.
+              </p>
+            </div>
+          </p>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
