@@ -1,0 +1,49 @@
+<!-- {% load static %} -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/login.css' %}"
+    />
+    <!-- <link rel="stylesheet" type="text/css" href="login.css" /> -->
+    <meta charset="utf-8" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Pacifico&display=swap');
+    </style>
+  </head>
+  <body>
+      <div class="navigation-bar">
+        <a href="/"><p class="anxie-tea">ANXIE-TEA</p></a>
+        <div class="menu">
+            <a href="/profile"><p class="menu-items">PROFILE</p></a>
+          <a href="/emotions"><p class="menu-items">MOOD DIARY</p></a>
+          <p class="menu-items">ANALYSIS</h1>
+        </div>
+      </div>
+    <div>
+      <div>
+        <div class="purple-rect">
+          <div class="form-header">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+            <p>
+              Name: {{ user.username }}
+            </p>
+            <p>
+              Email: {{ user.email }}
+            </p>
+            <p>
+                Age : {{ user.age }}
+            </p>
+            <p>
+                Gender : {{ user.gender }}
+            </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -41,3 +41,8 @@ def signup_submit(request):
 def logout_view(request):
     logout(request)
     return redirect('/splash')
+
+def profile_view(request):
+    user = request.user
+
+    return render(request, 'anxietea/profile.html', { user: user})
