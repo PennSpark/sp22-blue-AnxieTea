@@ -167,3 +167,21 @@ img {
   font-style: normal;
   font-weight: 400;
 }
+button {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 42px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background: #bfafe0;
+  width: 150px;
+  height: 81.5px;
+  margin: 5%;
+
+  position: absolute;
+  left: 38%;
+  top: 70%;
+}
