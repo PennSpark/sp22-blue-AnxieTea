@@ -160,7 +160,10 @@ img {
   top: 358px;
 }
 
-
 /* . -> class
 # -> id 
 no selector ->  */
+
+a {
+  text-decoration: none;
+}

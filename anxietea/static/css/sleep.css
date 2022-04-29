@@ -76,6 +76,10 @@ h1 {
   color: #000000;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   width: 400px;
   position: absolute;

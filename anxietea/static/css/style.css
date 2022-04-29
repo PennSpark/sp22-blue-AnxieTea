@@ -135,3 +135,6 @@ img {
   top: 32px;
   background: #eaffc9;
 }
+a {
+  text-decoration: none;
+}

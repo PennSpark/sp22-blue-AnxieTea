@@ -161,3 +161,7 @@ img {
   left: 840px;
   top: 280px;
 }
+
+a {
+  text-decoration: none;
+}
