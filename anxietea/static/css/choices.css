@@ -1,0 +1,142 @@
+body {
+  font-family: IBM Plex Mono;
+  background-color: lightgray;
+
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+
+  background: #f7ccdb;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  background-size: 80px 80px;
+  background-image: linear-gradient(to right, #ce94b2 1px, transparent 1px),
+    linear-gradient(to bottom, #ce94b2 1px, transparent 1px);
+}
+
+button {
+  width: 150px;
+  height: 150px;
+
+  background: #ffffff;
+  border-color: #bfafe0;
+  border-width: 10px;
+
+  align-items: center;
+  text-align: center;
+
+  margin-left: 130px;
+
+  font-family: "IBM Plex Mono";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 42px;
+
+  color: #000000;
+}
+
+.buttons {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 13%;
+  top: 24%;
+  width: 100%;
+}
+
+h1 {
+  position: absolute;
+  width: 900px;
+  height: 240px;
+  left: 284px;
+  top: 173px;
+
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 104px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: #000000;
+}
+
+img {
+  width: 400px;
+  position: relative;
+  width: 193px;
+  height: 180px;
+  /* left: 614px;
+    top: 398px; */
+}
+
+.anxie-tea {
+  /* ANXIE-TEA */
+
+  position: absolute;
+  left: 2.08%;
+  right: 88.61%;
+  top: 30.77%;
+  bottom: 32.97%;
+
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.menu {
+  position: absolute;
+  top: 30.77%;
+  bottom: 32.97%;
+  left: 68.54%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.menu-items {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  width: 150px;
+}
+
+.background {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+
+  background: #f7ccdb;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  background-size: 80px 80px;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+
+.navigation-bar {
+  position: absolute;
+  width: 1460px;
+  height: 91px;
+  left: -20px;
+  top: 32px;
+  background: #eaffc9;
+}

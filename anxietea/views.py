@@ -13,6 +13,9 @@ def emotions_view(request):
 def mood_slider_view(request):
     return render(request, 'anxietea/mood-slider.html' )
 
+def choices_view(request):
+    return render(request, 'anxietea/choices.html' )
+
 
 def login_view(request):
     return render(request, 'anxietea/login.html' )
