@@ -24,18 +24,23 @@ def login_submit(request):
     user = authenticate(username=username, password=password)
     if user is not None:
         login(request, user)
-        return redirect('/')
+        return redirect('/home')
     else:
         return redirect('/login?error=LoginError')
 
 def signup_view(request):
     return render(request, 'anxietea/signup.html')
 
+def home_view(request):
+    return render(request, 'anxietea/home.html')
+
 def signup_submit(request):
     user = User.objects.create_user(
         username=request.POST['username'],
         password=request.POST['password'],
         email=request.POST['email'],
+        age=request.POST['age'],
+        gender=request.POST['gender']
     )
     login(request, user)
     return redirect('/')
