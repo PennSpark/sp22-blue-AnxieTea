@@ -5,7 +5,7 @@
     <link
       rel="stylesheet"
       type="text/css"
-      href="{% static 'css/login.css' %}"
+      href="{% static 'css/suggestions.css' %}"
     />
     <meta charset="utf-8" />
     <style>
@@ -29,22 +29,32 @@
         <span class="dot"></span>
         <span class="dot"></span>
       </div>
-      <img src="{% static 'images/cup.png' %}" />
-            <p>
-              Name: {{ user.username }}
-            </p>
-            <p>
-              Email: {{ user.email }}
-            </p>
-            <p>
-                Age : {{ user.age }}
-            </p>
-            <p>
-                Gender : {{ user.gender }}
-            </p>
-                <a href="/logout"><button type="submit" class = "submit-button">Log Out</button>
-            
-        </div>
+      <div>
+        <p>
+            Mood: Breath it out, Release physical tension. Try writing down your thoughts.         
+          </p>
+          <p>
+            Sleep: Stick to sleep schedule. Try closing your eyes and empty your thoughts. 
+            <!-- <div class="music-img">
+              <img src="{% static 'images/music.png' %}" />
+            </div>  -->
+          </p>
+          <p>
+            Tea: 
+              <img src="{% static 'images/teabag.png' %}" />
+            <div>
+              <p>
+                Camomile Tea is good for relaxation.
+              </p>
+              <p>
+                Pepermint Tea is good for refreshment.
+              </p>
+              <p>
+                Chai Tea is good for digestion and reducing blood sugar levels.
+              </p>
+            </div>
+          </p>
+      </div>
     </div>
   </body>
 </html>

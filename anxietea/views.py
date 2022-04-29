@@ -19,8 +19,8 @@ def sleep_view(request):
 def mood_view(request):
     return render(request, 'anxietea/mood-home.html' )
 
-def analysis_view(request):
-    return render(request, 'anxietea/analysis.html' )
+def suggestions_view(request):
+    return render(request, 'anxietea/suggestions.html' )
 
 def login_submit(request):
     username, password = request.POST['username'], request.POST['password']

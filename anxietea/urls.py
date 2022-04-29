@@ -13,6 +13,6 @@ urlpatterns = [
     path('profile/', views.profile_view, name='profile_view'),
     path('mood/', views.mood_view, name='mood_view'),
     path('home/', views.home_view, name='home_view'),
-    path('analysis/', views.analysis_view, name='analysis_view'),
+    path('suggestions/', views.suggestions_view, name='suggestions_view'),
 
 ]

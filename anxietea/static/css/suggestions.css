@@ -154,46 +154,12 @@ h1 {
 img {
   width: 400px;
   position: absolute;
-  width: 193px;
-  height: 180px;
-  left: 840px;
-  top: 280px;
+  width: 170px;
+  height: 150px;
+  left: 860px;
+  top: 358px;
 }
 
-
-.leaf-rect {
-  width: 50vw;
-  height: 50vh;
-  margin-left: 25vw;
-  margin-top: 25vh;
-  background-color: white;
-  border-radius: 15px;
-  border: 5px solid #bfafe0;
-}
-.leaf-img {
-  width: 100px;
-  height: 100px;
-  left: 300px;
-  top: 300px;
-}
-
-.teabag-img {
-  width: 400px;
-  position: absolute;
-  width: 193px;
-  height: 180px;
-  left: 840px;
-  top: 400px;
-}
-
-.music-img {
-  width: 400px;
-  position: absolute;
-  width: 193px;
-  height: 180px;
-  left: 840px;
-  top: 280px;
-}
 
 /* . -> class
 # -> id 
