@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/sleep.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/mood-slider.css' %}" />
     <meta charset="utf-8" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
@@ -16,7 +16,16 @@
       <p class="menu-items">ANALYSIS</h1>
     </div>
   </div>
-      <p class = "prompt">How much did you sleep tonight?</p>
-      <input class="sleep" type="number" maxlength="2" />
+      <p class = "prompt">How are you doing today?</p>
+      <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+      </div>
+      <div class = "images">
+        <img src="{% static 'images/sad.png' %}" />
+        <img src="{% static 'images/happy.png' %}" />
+      </div>
+
+      <a href="/emotions"><button>Next</button></a>
+
     </body>
 </html>

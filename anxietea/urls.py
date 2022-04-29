@@ -12,6 +12,7 @@ urlpatterns = [
     path('sleep/', views.sleep_view, name='sleep_view'),
     path('profile/', views.profile_view, name='profile_view'),
     path('mood/', views.mood_view, name='mood_view'),
+    path('mood-slider/', views.mood_slider_view, name='mood_slider_view'),
     path('home/', views.home_view, name='home_view'),
 
 ]

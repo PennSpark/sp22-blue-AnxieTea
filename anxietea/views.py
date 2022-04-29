@@ -10,6 +10,10 @@ def onboarding(request):
 def emotions_view(request):
     return render(request, 'anxietea/emotions.html' )
 
+def mood_slider_view(request):
+    return render(request, 'anxietea/mood-slider.html' )
+
+
 def login_view(request):
     return render(request, 'anxietea/login.html' )
 

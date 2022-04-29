@@ -1,0 +1,226 @@
+body {
+  font-family: IBM Plex Mono;
+  background-color: lightgray;
+
+  /* position: relative; */
+  width: 1440px;
+  height: 1024px;
+
+  background: #f7ccdb;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  background-size: 80px 80px;
+  background-image: linear-gradient(to right, #ce94b2 1px, transparent 1px),
+    linear-gradient(to bottom, #ce94b2 1px, transparent 1px);
+}
+
+.prompt {
+  /* Input */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px 24px;
+
+  position: absolute;
+  width: 1079px;
+  height: 82px;
+  top: 262px;
+  left: 11%;
+
+  background: #ffffff;
+  border: 8px solid #bfafe0;
+  box-sizing: border-box;
+  border-radius: 16px;
+
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: #000000;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+h1 {
+  position: absolute;
+  width: 900px;
+  height: 240px;
+  left: 284px;
+  top: 173px;
+
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 104px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: #000000;
+}
+
+img {
+  width: 150px;
+  margin-right: 550px;
+}
+
+.images {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 20%;
+  top: 75%;
+  width: 100%;
+}
+
+.anxie-tea {
+  /* ANXIE-TEA */
+
+  position: absolute;
+  left: 2.08%;
+  right: 88.61%;
+  top: 30.77%;
+  bottom: 32.97%;
+
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.menu {
+  position: absolute;
+  top: 30.77%;
+  bottom: 32.97%;
+  left: 68.54%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.menu-items {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  width: 150px;
+}
+
+.background {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+
+  background: #f7ccdb;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  background-size: 80px 80px;
+  background-image: linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+
+.navigation-bar {
+  position: absolute;
+  width: 1460px;
+  height: 91px;
+  left: -20px;
+  top: 32px;
+  background: #eaffc9;
+}
+
+.sleep {
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  width: 150px;
+  height: 150px;
+  background: #ffffff;
+  border: 8px solid #bfafe0;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  font-size: 90px;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 400;
+}
+
+.slidecontainer {
+  width: 75%; /* Width of the outside container */
+  position: absolute;
+  left: 320px;
+  top: 490px;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none; /* Override default CSS styles */
+  appearance: none;
+  width: 75%; /* Full-width */
+  height: 11px; /* Specified height */
+  background: #bfafe0; /* Grey background */
+  outline: none; /* Remove outline */
+  -webkit-transition: 0.2s; /* 0.2 seconds transition on hover */
+  transition: opacity 0.2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: #bfafe0;
+  cursor: pointer;
+}
+
+Mouse-over effects .slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+button {
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 42px;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background: #bfafe0;
+  width: 150px;
+  height: 81.5px;
+  margin: 5%;
+
+  position: absolute;
+  left: 40%;
+  top: 70%;
+}
