@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/mood-home.css' %}"
+    />
+    <meta charset="utf-8" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=Pacifico&display=swap');    
+    </style>
+  </head>
+  <body>
+    <div class="navigation-bar">
+      <a href="/"><p class="anxie-tea">ANXIE-TEA</p></a>
+      <div class="menu">
+        <a href="/profile"><p class="menu-items">PROFILE</p></a>
+        <a href="/emotions"><p class="menu-items">MOOD DIARY</p></a>
+        <p class="menu-items">ANALYSIS</p>
+      </div>
+    </div>
+    <div class = "buttons">
+        <a href="/emotions"><button><img src="{% static 'images/temp_check.png' %}" /></button></a>
+        <a href="/sleep"><button><img src="{% static 'images/pour.png' %}" /></button></a>
+    </div>
+    <div class = "labels">
+        <p class = "button-label">temperature check</p>
+        <p class = "button-label">pour it out</p>
+    </div>
+    </div>
+  </body>
+</html>

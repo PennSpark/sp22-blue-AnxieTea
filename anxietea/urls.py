@@ -11,4 +11,6 @@ urlpatterns = [
     path('logout/', views.logout_view, name='logout_view'),
     path('sleep/', views.sleep_view, name='sleep_view'),
     path('profile/', views.profile_view, name='profile_view'),
+    path('mood/', views.mood_view, name='mood_view'),
+
 ]

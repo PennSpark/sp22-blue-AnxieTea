@@ -16,6 +16,9 @@ def login_view(request):
 def sleep_view(request):
     return render(request, 'anxietea/sleep.html' )
 
+def mood_view(request):
+    return render(request, 'anxietea/mood-home.html' )
+
 def login_submit(request):
     username, password = request.POST['username'], request.POST['password']
     user = authenticate(username=username, password=password)
