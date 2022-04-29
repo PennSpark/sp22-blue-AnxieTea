@@ -19,6 +19,9 @@ def sleep_view(request):
 def mood_view(request):
     return render(request, 'anxietea/mood-home.html' )
 
+def analysis_view(request):
+    return render(request, 'anxietea/analysis.html' )
+
 def login_submit(request):
     username, password = request.POST['username'], request.POST['password']
     user = authenticate(username=username, password=password)
@@ -32,7 +35,13 @@ def signup_view(request):
     return render(request, 'anxietea/signup.html')
 
 def home_view(request):
-    return render(request, 'anxietea/home.html')
+    user = request.user
+    if user is not None:
+        login(request, user)
+        return render(request, 'anxietea/home.html' )
+    else:
+        return redirect(request, 'anxietea/onboarding.html')
+
 
 def signup_submit(request):
     user = User.objects.create_user(
