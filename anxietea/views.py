@@ -26,7 +26,7 @@ def login_submit(request):
         login(request, user)
         return redirect('/')
     else:
-        return redirect('/splash?error=LoginError')
+        return redirect('/login?error=LoginError')
 
 def signup_view(request):
     return render(request, 'anxietea/signup.html')
