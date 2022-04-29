@@ -13,8 +13,8 @@ def emotions_view(request):
 def login_view(request):
     return render(request, 'anxietea/login.html' )
 
-def mood_view(request):
-    return render(request, 'anxietea/mood-tracker.html' )
+def sleep_view(request):
+    return render(request, 'anxietea/sleep.html' )
 
 def login_submit(request):
     username, password = request.POST['username'], request.POST['password']
