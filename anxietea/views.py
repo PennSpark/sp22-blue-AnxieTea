@@ -32,7 +32,13 @@ def signup_view(request):
     return render(request, 'anxietea/signup.html')
 
 def home_view(request):
-    return render(request, 'anxietea/home.html')
+    user = request.user
+    if user is not None:
+        login(request, user)
+        return render(request, 'anxietea/home.html' )
+    else:
+        return redirect(request, 'anxietea/onboarding.html')
+
 
 def signup_submit(request):
     user = User.objects.create_user(
