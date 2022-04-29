@@ -55,8 +55,6 @@ def signup_submit(request):
         username=request.POST['username'],
         password=request.POST['password'],
         email=request.POST['email'],
-        age=request.POST['age'],
-        gender=request.POST['gender']
     )
     login(request, user)
     return redirect('/')
